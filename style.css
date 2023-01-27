@@ -1,0 +1,57 @@
+.start-box {
+    margin: 10% auto 0;
+}
+
+.start-button {
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.question-answer-box {
+    margin: 5% auto 0;
+    padding: 3%;
+    text-align: center;
+}
+
+.question {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    font-size: 3.5rem;
+    border: 2px solid blue;
+    border-radius: 30%;
+    margin-bottom: 10rem;
+}
+
+.answers {
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 70%;
+}
+
+.clicked-button {
+    background-color: black;
+}
+
+.clicked-button:hover {
+    background-color: black;
+}
+
+.footer {
+    background-color: #6edff6;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2% 7%;
+}
+
+.final-score {
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+
+<div class="container start-box">
+    <button type="button" class="btn btn-outline-primary start-button">Start Quiz</button>
+</div>
+
+<div class="container-fluid bg-light question-answer-box">
+    <h1 class="question">Question</h1>
+    <div class="row mt-5">
+        <div class="col-sm-6">
+            <button type="button" class="answers btn btn-primary option1">Option 1</button>
+        </div>
+        <div class="col-sm-6">
+            <button type="button" class="answers btn btn-primary option2">Option 2</button>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-sm-6">
+            <button type="button" class="answers btn btn-primary option3">Option 3</button>
+        </div>
+        <div class="col-sm-6">
+            <button type="button" class="answers btn btn-primary option4">Option 4</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid final-score">
+    <h1></h1>
+</div>
+
+<div class="row footer">
+    <div class="col-sm-4 score">
+        Score:
+    </div>
+    <div class="col-sm-4">
+        <button type="button" class="btn btn-danger next">➡ Next</button>
+    </div>
+    <div class="col-sm-4">
+        <button type="button" class="btn btn-warning restart">🔄 Restart</button>
+    </div>
+</div>
+
+<script src="js/bootstrap.js"></script>
+<script src="jquery-3.6.3.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
